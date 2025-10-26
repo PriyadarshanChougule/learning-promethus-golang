@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func main() {
+func check() {
 	// Create a new Gin router with default middleware (logger and recovery)
 	router := gin.Default()
 
